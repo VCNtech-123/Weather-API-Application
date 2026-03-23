@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API by John Francis</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 id="main_heading">Weather App</h1>
+        <p id="subtitle">Built By John Francis Vecina</p> 
+    </header>
+    <main>
+        <section class="user_input">
+            <input class="search_bar" type="text" placeholder="Search City">
+            <button class="search_button">Search</button>
+        </section>
+
+        <section class="weather_section">
+            <div class="weather_card">
+                <img src="images/svg/sun.svg" class="weather_icon">
+                <h4 class="city">Manila</h4>
+                <p class="country">Philippines</p>
+                <h1 class="temperature">29°C</h1>   
+                <p class="cloud">Scattered Cloud</p>
+                <div class="info_box">
+                    <div class="box_info"><div class="box_cat">Feels Like</div><p class="box_value">31°C</p></div>
+                    <div class="box_info"><div class="box_cat">Humidity</div><p class="box_value">72%</p></div>
+                    <div class="box_info"><div class="box_cat">Wind</div><p class="box_value">3.4 m/s</p></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
