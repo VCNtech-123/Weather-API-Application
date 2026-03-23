@@ -7,12 +7,18 @@ const searchButton = document.querySelector('.search_button');
 searchButton.addEventListener('click', () => {
     const search = searchBar.value;
     renderCreate(search);
+    searchBar.value = '';
 });
 
 searchBar.addEventListener('keydown', (e) => {
     if (e.key === 'Enter') {
         const search = e.target.value;
-
-        if (search) renderCreate(search);
+    
+        if (search) {
+            renderCreate(search);
+            searchBar.value = '';
+        }
     }
 });
+
+
