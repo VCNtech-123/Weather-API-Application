@@ -30,7 +30,7 @@ A weather app built with HTML, CSS, and JavaScript that lets users search for a 
 
 ## Live Demo
 
-[View Live](your-link-here)
+[View Live]https://vcntech-123.github.io/Weather-API-Application/
 
 ## Author
 
